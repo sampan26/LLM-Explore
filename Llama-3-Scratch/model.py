@@ -1,6 +1,7 @@
 # Trying to do this from the paper 8b and kinda chceking code
 import torch
 import torch.nn as nn
+from dataclasses import dataclass
 from typing import Optional, Tuple
 from fairscale.nn.model_parallel.layers import (
     ColumnParallelLinear,
